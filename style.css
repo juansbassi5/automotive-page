@@ -52,6 +52,7 @@ nav ul {
     display: flex;
     list-style-type: none;
     padding: 0;
+    
 }
 
 nav li a{
@@ -59,15 +60,14 @@ nav li a{
     padding: 1rem;
     text-decoration: none;
     -webkit-transition:all 1s ease ;
-	-o-transition:all 1s ease ;
-	transition:all 1s ease ;
-	border-radius: 50px;
+    -o-transition:all 1s ease ;
+    transition:all 1s ease ;
+    border-radius: 50px;    
 }
+
 nav li a:hover{
-    background: #0020bb;
+    background-color: #0020bb;
 }
-
-
 .selected {
     font-weight: bold;
 }
@@ -78,9 +78,9 @@ nav li a:hover{
     padding: 1rem;
     text-decoration: none;
     -webkit-transition:all 1s ease ;
-	-o-transition:all 1s ease ;
-	transition:all 1s ease ;
-	border-radius: 50px;
+    -o-transition:all 1s ease ;
+    transition:all 1s ease ;
+    border-radius: 50px;
 }
 .highlight:hover{
     background: #0020bb;
